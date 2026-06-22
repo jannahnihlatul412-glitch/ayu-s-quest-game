@@ -1,0 +1,6 @@
+{
+  "name": "Ayu Quest for School",
+  "description": "A 2D educational platformer game about Ayu quest for school under SDG 4",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
