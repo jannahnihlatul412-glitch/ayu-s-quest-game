@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-fredoka: "Fredoka", sans-serif;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Custom retro scanline effect & scrollbars */
+.pixel-corners {
+  image-rendering: pixelated;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
